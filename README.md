@@ -2,7 +2,7 @@
 
 ## Features
 
-[] List all found pets
+[x] List all found pets
 [] Display details of a specific pet
 [] Add a found pet
 [] Edit a pet
