@@ -2,6 +2,9 @@
 
 <ul class="list-group">
   <% @pets.each do |pet| %>
-    <li class="list-group-item"><%= pet.name %></li>
+    <li class="list-group-item">
+      <%= pet.name %>
+      <%= link_to 'Details', pet_path(pet.id) %>
+    </li>
   <% end %>
 </ul>
