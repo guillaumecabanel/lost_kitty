@@ -1,5 +1,7 @@
 <h1>Lost Kitty</h1>
 
+<%= link_to "Found a pet?", new_pet_path, class: "btn btn-primary mb-4"%>
+
 <ul class="list-group">
   <% @pets.each do |pet| %>
     <li class="list-group-item">

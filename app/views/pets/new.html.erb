@@ -1,0 +1,11 @@
+<h1>Oh! You found a pet?</h1>
+
+<%= simple_form_for @pet do |f| %>
+  <%= f.input :name %>
+  <%= f.input :species, collection: %w[cat dog horse bird turtle fish lama] %>
+  <%= f.input :location %>
+  <%= f.input :found_at %>
+  <%= f.input :contact %>
+
+  <%= f.submit class: "btn btn-primary mt-3"%>
+<% end %>

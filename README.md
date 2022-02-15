@@ -6,7 +6,7 @@
 
 [x] Display details of a specific pet
 
-[] Add a found pet
+[x] Add a found pet
 
 [] Edit a pet
 
